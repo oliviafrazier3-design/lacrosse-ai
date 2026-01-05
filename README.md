@@ -7,20 +7,23 @@ Designed an automated sports analytics pipeline to modernize the recruiting and 
 * Automated Team Classification: Developed custom identification logic using K-Means Clustering to group players based on jersey color signatures
 * Lighting: Utilized HSV color space analysis to separate quality of color from brightness, ensuring accuracy despite shadows or sunlight 
 
-## Techniacal Stack
+## Technical Stack
 * Language: Python
 * Frameworks: YOLOv8, OpenCV
 * Machine Learning: K-Means Clustering
 * Data Management: Roboflow
 
 ## Challenges & Solutions
-### 1. Enviornmental Noise Interference
+### 1. Environmental Noise Interference
 Challenge: Background elements like field lines and endzones caused "White Team" players to be misidentified as "Yellow/Red Team"
 Solution: Implemented 70% width torso crop to prioritize jersey pixels over background noise
+* Developed a 30-frame temporal voting buffer; the system requires a statistical majority consensus across one second of footage before a team ID is locked, successfully eliminating "flickering" classifications
 
 ### 2. Variable Lighting Conditions
 Challenge: Standard BGR color analysis failed when players moved from direct sunlight to shadow 
 Solution: Now using HSV color space, allowing the system to focus on hue (color) while ignoring value (brightness) differences
+
+## Scout Insight & Automated Metrics
 
 ## Data Visualization
 
