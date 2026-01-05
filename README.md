@@ -1,6 +1,6 @@
 # Lacrosse AI: Player Tracking & Team Analytics
 ## Project Overview
-The goal of this system is to automate the collection of sports performance data by tracking players and identifying team affiliation. Designed to streamline lacrosse film analysis, the pipeline will extract metrics such as player velocity, shots on goal 
+Designed an automated sports analytics pipeline to modernize the recruiting and scouting process for lacrosse coaches. By extracting metrics: player velocity, team affiliation, and performance stats, this system transforms raw game film into data. The goal is to provide scouts with a high-speed tool to identify top talent and streamline the manual video tagging process, allowing for more efficent and data driven recruiting decisions. 
 
 ## Key Features
 * Multi-Object Tracking: Integrated YOLOv8 with ByteTrack to ensure consistent player ID persistance within a fast moving game
