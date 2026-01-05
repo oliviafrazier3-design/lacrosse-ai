@@ -23,8 +23,6 @@ Solution: Implemented 70% width torso crop to prioritize jersey pixels over back
 Challenge: Standard BGR color analysis failed when players moved from direct sunlight to shadow 
 Solution: Now using HSV color space, allowing the system to focus on hue (color) while ignoring value (brightness) differences
 
-## Scout Insight & Automated Metrics (need to do)
-
 ## Data Visualization (need to do)
 
 ## Planned Additions
