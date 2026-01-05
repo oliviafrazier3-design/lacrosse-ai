@@ -1,1 +1,3 @@
-# Lacrosse AI Tracking Project
+# Lacrosse AI: Player Tracking & Team Analytics
+## Project Overview
+
