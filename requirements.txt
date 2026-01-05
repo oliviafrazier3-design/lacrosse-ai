@@ -1,0 +1,12 @@
+# Core Computer Vision & AI
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Machine Learning & Analytics
+scikit-learn>=1.2.0
+pandas>=2.0.0
+
+# Tracking Utilities
+lapx>=0.5.5
+filterpy>=1.4.5
