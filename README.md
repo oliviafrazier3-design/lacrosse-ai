@@ -23,7 +23,7 @@ Solution: Implemented 70% width torso crop to prioritize jersey pixels over back
 Challenge: Standard BGR color analysis failed when players moved from direct sunlight to shadow 
 Solution: Now using HSV color space, allowing the system to focus on hue (color) while ignoring value (brightness) differences
 
-## Data Visualization (need to do)
+## Data Visualization (add histograms)
 ![Adobe Express - lacrosse_ai_demo](https://github.com/user-attachments/assets/b7304645-3c4c-445d-b699-ac897a57b558)
 
 ## Planned Additions
@@ -43,4 +43,22 @@ Solution: Now using HSV color space, allowing the system to focus on hue (color)
 * Shot Tracking: Utilizing goal-frame detection to automatically record and timestamp shots on goal
 
 ## Installation & Usage (need to do)
+### 1. Prerequisites
+Before running the project, ensure you have the following installed:
+* Python 3.10+
+* pip
+* A Roboflow API Key (required if you wish to re-run the training notebooks in the notebooks/ directory)
 
+### 2. Environment Setup
+Clone the repository and install the necessary computer vision and machine learning libraries:
+# Clone the project
+git clone https://github.com/your-username/lacrosse-ai.git
+
+# Enter the project directory
+cd lacrosse-ai
+
+# Install all required dependencies
+pip install ultralytics roboflow opencv-python numpy matplotlib
+
+### 3. Running the Tracking System
+Run the code python3 detect.py
