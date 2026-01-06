@@ -25,7 +25,6 @@ Solution: Now using HSV color space, allowing the system to focus on hue (color)
 
 ## Data Visualization (need to do)
 ![Adobe Express - lacrosse_ai_demo](https://github.com/user-attachments/assets/b7304645-3c4c-445d-b699-ac897a57b558)
-![Adobe Express - lacrosse_ai_demo](https://github.com/user-attachments/assets/b7304645-3c4c-445d-b699-ac897a57b558)
 
 ## Planned Additions
 ### 1. Player Identification & Analytics
