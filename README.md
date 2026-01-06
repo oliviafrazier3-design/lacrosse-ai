@@ -50,8 +50,9 @@ Before running the project, ensure you have the following installed:
 * A Roboflow API Key (required if you wish to re-run the training notebooks in the notebooks/ directory)
 
 ### 2. Environment Setup
-Clone the repository and install the necessary computer vision and machine learning libraries:
+Clone the repository and install the necessary computer vision and machine learning libraries. Run these commands in your terminal:
 <img width="481" height="147" alt="Screenshot 2026-01-05 at 10 47 38 PM" src="https://github.com/user-attachments/assets/708477bd-7a43-41d4-b9b0-4a313aae7e5f" />
 
 ### 3. Running the Tracking System
-Run the code: python3 detect.py
+Run the code below in your terminal: 
+python3 detect.py
