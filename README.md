@@ -24,9 +24,8 @@ Challenge: Standard BGR color analysis failed when players moved from direct sun
 Solution: Now using HSV color space, allowing the system to focus on hue (color) while ignoring value (brightness) differences
 
 ## Data Visualization (need to do)
-![lacrosse_ai_demo](https://github.com/user-attachments/assets/306278d5-20b1-4013-9e33-e020f36493ab)
-![lacrosse_ai_demo](https://github.com/user-attachments/assets/306278d5-20b1-4013-9e33-e020f36493ab)
-
+![Adobe Express - lacrosse_ai_demo](https://github.com/user-attachments/assets/b7304645-3c4c-445d-b699-ac897a57b558)
+![Adobe Express - lacrosse_ai_demo](https://github.com/user-attachments/assets/b7304645-3c4c-445d-b699-ac897a57b558)
 
 ## Planned Additions
 ### 1. Player Identification & Analytics
