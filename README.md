@@ -54,5 +54,5 @@ Clone the repository and install the necessary computer vision and machine learn
 <img width="481" height="147" alt="Screenshot 2026-01-05 at 10 47 38 PM" src="https://github.com/user-attachments/assets/708477bd-7a43-41d4-b9b0-4a313aae7e5f" />
 
 ### 3. Running the Tracking System
-Run the code below in your terminal: 
-python3 detect.py
+Run in your terminal:
+<img width="141" height="28" alt="Screenshot 2026-01-05 at 10 49 26 PM" src="https://github.com/user-attachments/assets/80a37fd1-8a63-4a49-96bc-6b10bf2a74f4" />
