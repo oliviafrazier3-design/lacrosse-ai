@@ -51,14 +51,12 @@ Before running the project, ensure you have the following installed:
 
 ### 2. Environment Setup
 Clone the repository and install the necessary computer vision and machine learning libraries:
-# Clone the project
-git clone https://github.com/your-username/lacrosse-ai.git
 
-# Enter the project directory
-cd lacrosse-ai
+git clone https://github.com/your-username/lacrosse-ai.git # Cloning the project
 
-# Install all required dependencies
-pip install ultralytics roboflow opencv-python numpy matplotlib
+cd lacrosse-ai # Enter the project directory
+
+pip install ultralytics roboflow opencv-python numpy matplotlib # Install all required dependencies
 
 ### 3. Running the Tracking System
-Run the code python3 detect.py
+Run the code: python3 detect.py
