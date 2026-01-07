@@ -24,7 +24,7 @@ Challenge: Standard BGR color analysis failed when players moved from direct sun
 Solution: Now using HSV color space, allowing the system to focus on hue (color) while ignoring value (brightness) differences
 
 ## Data Visualization (add histograms)
-![Adobe Express - lacrosse_ai_demo](https://github.com/user-attachments/assets/b7304645-3c4c-445d-b699-ac897a57b558)
+![Adobe Express - LacrosseDemo](https://github.com/user-attachments/assets/579a6c58-875f-4e5b-a4fe-0d83c8b89547)
 
 ## Planned Additions
 ### 1. Player Identification & Analytics
@@ -42,7 +42,7 @@ Solution: Now using HSV color space, allowing the system to focus on hue (color)
 * Automated Game Tagging: Mirroring Hudl style tagging to automatically break down game film into search able clips (goals, turnovers, clears)
 * Shot Tracking: Utilizing goal-frame detection to automatically record and timestamp shots on goal
 
-## Installation & Usage (need to do)
+## Installation & Usage
 ### 1. Prerequisites
 Before running the project, ensure you have the following installed:
 * Python 3.10+
