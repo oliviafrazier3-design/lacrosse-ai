@@ -23,7 +23,7 @@ Solution: Implemented 70% width torso crop to prioritize jersey pixels over back
 Challenge: Standard BGR color analysis failed when players moved from direct sunlight to shadow 
 Solution: Now using HSV color space, allowing the system to focus on hue (color) while ignoring value (brightness) differences
 
-## Data Visualization (add histograms)
+## Data Visualization
 ![Adobe Express - LacrosseDemo](https://github.com/user-attachments/assets/579a6c58-875f-4e5b-a4fe-0d83c8b89547)
 
 ## Planned Additions
