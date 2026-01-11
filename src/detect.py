@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.cluster import KMeans
 
 # 1. Load model
-model = YOLO("best.pt")
+model = YOLO("player_model.pt")
 
 # --- STORAGE ---
 track_hist_data = {}
@@ -133,3 +133,5 @@ for result in results:
     if cv2.waitKey(1) & 0xFF == ord('q'): break
 
 cv2.destroyAllWindows()
+
+
